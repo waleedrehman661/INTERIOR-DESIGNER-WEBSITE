@@ -3,7 +3,18 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
+}
+::-webkit-scrollbar {
+    width: 10px; 
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(244, 165, 74);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(233, 141, 37); 
 }
 body{
     background-color: #f9f3ee;
@@ -12,7 +23,7 @@ body{
     background-color: rgb(18, 18, 18);
     color: white;
     width: 100%;
-    height: 50px;
+    height: 45px;
     padding: 10px 30px;
     display: flex;
     align-items: center;
@@ -42,7 +53,7 @@ body{
 .second-nav{
     background-color: rgb(11, 11, 11);
     width: 100%;
-    height: 100px;
+    height: 85px;
     padding: 20px 30px;
     display: flex;
     justify-content: space-between;
@@ -57,6 +68,14 @@ body{
     align-items: center;
     gap: 12px;
     color: white;
+}
+.second-list li{
+   font-size: 15px;
+   transition: all 0.2s;
+}
+.second-list li:hover{
+   color: #f4a54a;
+   cursor: pointer;
 }
 .dot{
     background-color:  rgb(244, 165, 74);
@@ -97,4 +116,166 @@ body{
         background-color: white;
         color: black;
     }
+}
+.what-wedo{
+    padding: 40px 20px;
+}
+.what-wedo h1{
+   font-weight: 300;
+}
+.seperator{
+    width: 300px;
+    height: 1px;
+    background-color: rgb(42, 42, 42);
+}
+.what-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.what-section img{
+    width: 450px;
+    mix-blend-mode: multiply;
+}
+.what-content h3{
+    color: black;
+    font-size: 20px;
+}
+.what-content .text{
+    width: 100%;
+    color: rgb(62, 62, 62);
+}
+#watsapp-logo{
+    position: fixed;
+    z-index: 999;
+    top: 87vh;
+    right: 20px;
+}
+.ri-arrow-up-double-fill {
+    font-size: 30px;
+    border-radius: 4px; 
+    position: fixed;
+    z-index: 999;
+    top: 90vh;
+    left: 20px;
+    background-color: #f4a54a; 
+    padding: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; 
+    height: 50px; 
+    cursor: pointer; 
+    color: rgb(23, 23, 23);
+    transition: ease-in 0.3s;
+}
+.ri-arrow-up-double-fill:hover{
+    background-color: #121212;
+    color: white;
+}
+.services-section{
+    padding: 20px 30px;
+}
+.building-background{
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+.building-background img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.3);
+}
+.about-content{
+    text-align: justify;
+    position: absolute;
+    top: 0px;
+    color: white;
+    padding: 80px 60px;
+}
+.about-content h1{
+    line-height: 100px;
+}
+.review-section{
+    padding: 20px 30px;
+}
+.swiper-slide{
+    width: 380px;
+    height: 250px;
+    background-color: #121212;
+}
+.mySwiper{
+    margin: 40px 20px;
+}
+.ri-double-quotes-l{
+    background-color: #f4a54a;
+    padding: 15px;
+}
+.review-content{
+    padding: 5px 60px;
+    color: #f1f1f1;
+    text-align: justify;
+}
+.review-content span{
+    color: #f4a54a;
+    font-size: 15px
+}
+.sidebtn{
+    background: none;
+    border: none;
+    padding: 6px 25px;
+    border-radius: 2px;
+    transition: ease-in 0.2s;
+    font-size: 14px;
+    color: #565656;
+    &:hover{
+        background-color: #121212;
+        color: #f1f1f1;
+    }
+}
+.com-btn{
+    background-color: #f59930;
+    border: none;
+    padding: 6px 25px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+.viewall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: #f59930;
+    margin-top: 20px;
+}
+.viewall i{
+    margin-left: 10px;
+}
+.viewall button{
+    background: none;
+    padding: 7px 26px;
+    border: 1px solid black;
+    transition: ease-in 0.3s;
+}
+.viewall button:hover{
+    background-color: black;
+        color: white;
+}
+.clients-sec{
+    padding: 50px 30px;
+}
+.marquee{
+    width: 100%;
+    display: flex;
+}
+.bahria{
+    width: 150px;
+    margin-inline: 40px;
+}
+.falaknaz{
+    width: 500px;
+}
+.prperty-nma{
+    width: 300px;
 }
