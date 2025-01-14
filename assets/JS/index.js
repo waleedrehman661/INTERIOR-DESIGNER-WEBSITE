@@ -7,3 +7,9 @@ var swiper = new Swiper(".mySwiper", {
       clickable: true,
     },
   });
+
+  
+const scroll = new LocomotiveScroll({
+  el: document.querySelector('body'),
+  smooth: true
+});

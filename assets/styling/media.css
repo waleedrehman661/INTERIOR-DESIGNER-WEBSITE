@@ -1,3 +1,102 @@
-@media (max-width:990px) {
-    
+@media (min-width:850px) and (max-width:990px) {
+    #top-nav{
+        display: none !important;
+    }
+    .second-list{
+        display: none !important;
+    }
+    .header-content{
+        position: absolute;
+        left: 20vw;
+        top: 32vh;
+    }
+    .header-content div{
+        text-align: center;
+    }
+    .ri-menu-3-line{
+        display: block;
+        font-size: 40px;
+        color: white;
+    }
+    .ri-close-large-line{
+        color: black;
+        font-size: 40px;
+    }
+    .menu-canvas{
+        background-color: rgb(216, 134, 52);
+    }
+    .about-cm{
+        display: block !important;
+    }
+}
+@media (min-width:755px) and (max-width:850px) {
+    #top-nav{
+        display: none !important;
+    }
+    .second-list{
+        display: none !important;
+    }
+    .ri-menu-3-line{
+        display: block;
+        font-size: 35px;
+        color: white;
+    }
+    .ri-close-large-line{
+        color: black;
+        font-size: 40px;
+    }
+    .menu-canvas{
+        background-color: rgb(216, 134, 52);
+    }
+    .nav-logo{
+        width: 210px;
+    }
+    .header-content{
+        position: absolute;
+        left: 15vw;
+        top: 32vh;
+    }
+    .header-content div{
+        text-align: center;
+    }
+    /* what-sec */
+    .what-section{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .what-img{
+        display: flex;
+        justify-content: center;
+    }
+    .what-img img{
+       width: 600px;
+    }
+    .what-content{
+        padding-inline: 50px;
+        margin-block: 40px;
+    }
+    .text h3{
+        margin-bottom: 25px;
+    }
+    .about-cm{
+        display: none;
+    }
+    .about-mb{
+        display: block;
+    }
+    .building-background{
+        height: 60vh;
+        width: 100%;
+        position: relative;
+    }
+    .about-content-p{
+        flex-direction: column;
+    }
+    .about-content{
+        padding: 90px;
+    }
+    .contact-box{
+        top: 30px;
+    }
 }
