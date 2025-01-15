@@ -29,7 +29,7 @@
         display: block !important;
     }
 }
-@media (min-width:755px) and (max-width:850px) {
+@media (min-width:651px) and (max-width:850px) {
     #top-nav{
         display: none !important;
     }
@@ -97,6 +97,142 @@
         padding: 90px;
     }
     .contact-box{
-        top: 30px;
+        top: 26px;
+    }
+    .contact-box{
+        width: 360px;
+        height: 400px;
+    }
+    .loader{
+        font-size: 40px;
+    }
+    .bottom-main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width:650px) {
+    .nav-logo{
+        width: 180px;
+    }
+    #top-nav{
+        display: none !important;
+    }
+    .second-list{
+        display: none !important;
+    }
+    .header-content{
+        position: absolute;
+        left: 2.4vw;
+        top: 20vh;
+    }
+    .header-content div{
+        text-align: center;
+    }
+    .ri-menu-3-line{
+        display: block;
+        font-size: 28px;
+        color: white;
+    }
+    .ri-close-large-line{
+        color: black;
+        font-size: 24px;
+    }
+    .menu-canvas{
+        background-color: rgb(216, 134, 52);
+    }
+    /* what-sec */
+    .what-section{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .what-img{
+        display: flex;
+        justify-content: center;
+        margin-top: -5px;
+    }
+    .what-img img{
+       width: 330px;
+    }
+    .what-content{
+        padding-inline: 50px;
+        margin-block: 40px;
+    }
+    .subheadings{
+        font-size: 34px;
+        font-weight: 400;
+    }
+    .text p{
+       width: 75vw; 
+       text-align: center;
+       text-align: justify;
+    }
+    .seperator{
+        width: 150px;
+    }
+    .about-cm{
+        display: none;
+    }
+    .about-mb{
+        display: block;
+    }
+    .about-content-p{
+        flex-direction: column;
+        font-size: 15px;
+    }
+    .about-content{
+        padding: 10px 5vw;
+    }
+    .building-background{
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    }
+    .dot{
+        width: 6px;
+        height: 5px;
+    }
+    .mySwiper{
+        margin: 40px 8px;
+    }
+    .swiper-slide{
+        width: 310px;
+        height: 260px;
+        background-color: #121212;
+    }
+    .review-section{
+        padding: 20px 10px;
+    }
+    .contact-box{
+        width: 322px;
+        height: 400px;
+        padding: 60px 30px;
+        position: absolute;
+        top: 15%;
+    }
+    .contact-cm{
+        display: none;
+    }
+    .contact-main-img{
+        width: 100%;
+        height: 60vh;
+    }
+    .contact-mb{
+        display: block !important;
+        width: 100%;
+        height: 100%;
+    }
+    .loader {
+        color: rgb(226, 43, 43);
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .bottom-main{
+        height: 80px;
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
     }
 }

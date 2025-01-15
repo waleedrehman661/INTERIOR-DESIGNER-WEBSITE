@@ -127,9 +127,6 @@ body{
 .what-wedo{
     padding: 40px 20px;
 }
-.what-wedo h1{
-   font-weight: 300;
-}
 .seperator{
     width: 300px;
     height: 1px;
@@ -297,8 +294,9 @@ body{
 .contact-main{
     position: relative;
 }
-.contact-main img{
+.contact-back img{
     filter: blur(1.4px);
+    object-fit: cover;
 }
 .contact-box{
     position: relative;
@@ -313,6 +311,9 @@ body{
     padding: 80px 40px;
     display: block;
     flex-direction: column;
+}
+.contact-mb{
+    display: none !important;
 }
 .con-h{
     width: 300px;
@@ -339,8 +340,9 @@ body{
     width: 100%;
     height: 15vw;
     background-color: #f59930;
-    padding: 30px 40px;
-    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .loader {
