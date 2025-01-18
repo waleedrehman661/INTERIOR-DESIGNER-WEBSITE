@@ -7,12 +7,6 @@ var swiper = new Swiper(".mySwiper", {
       clickable: true,
     },
   });
- 
-const scroll = new LocomotiveScroll({
-  el: document.querySelector('#main-container'),
-  smooth: true
-});
-
 // MODELS
 $.getJSON("assets/js/data.json", function (products) {
   console.log(products);  

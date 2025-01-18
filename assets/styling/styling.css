@@ -2,10 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 html, body {
-    overflow: hidden;
+    overflow-y: auto !important; 
+    height: 100% !important;  
 }
 .ri-menu-3-line{
     display: none;
@@ -17,10 +18,11 @@ html, body {
     background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(244, 165, 74);
+    background: #d4d4d4;
+    transition: 0.5s;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(233, 141, 37); 
+    background: #fab702; 
 }
 body{
     background-color: #f9f3ee;
@@ -29,16 +31,26 @@ body{
     background-color: rgb(18, 18, 18);
     color: white;
     width: 100%;
-    height: 45px;
-    padding: 10px 30px;
+    padding: 2px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 0.1px solid rgb(215, 214, 214);
+    border-bottom: 0.01px solid #464749;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+}
+.menu-btn{
+    display: none;
 }
 .top-ul-1{
     display: flex;
     list-style: none;
+    margin-top: 5px;
+}
+.top-ul-1 i{
+    margin-right: 10px;
 }
 .top-ul-1{
     display: flex;
@@ -48,13 +60,16 @@ body{
 .top-ul-2{
     display: flex;
     list-style: none;
-    gap: 8px;
+    gap: 7px;
+}
+.top-ul-2 li{
+    align-items: center;
 }
 .top-ul-2 li i{
-   font-size: 24px;
+   font-size: 16px;
 }
 .text-color{
-    color: rgb(244, 165, 74);
+    color: #fab702;
 }
 .second-nav{
     background-color: rgb(11, 11, 11);
@@ -64,32 +79,40 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky; /* Make it fixed at the top */
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000; 
+    width: 100%;
 }
+
 .nav-logo{
-    width: 250px;
+    width: 220px;
 }
 .second-list{
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 15px;
     color: white;
 }
 .second-list li{
-   font-size: 15px;
+    font-weight: 400;
+   font-size: 14px;
    transition: all 0.2s;
 }
+.second-list a{
+    text-decoration: none;
+}
+.navlink{
+    color: white;
+}
+.navlink{
+    color: white;
+    text-decoration: none;
+}
 .second-list li:hover{
-   color: #f4a54a;
+   color: #fab702;
    cursor: pointer;
 }
 .dot{
-    background-color:  rgb(244, 165, 74);
+    background-color:  #fab702;
     width: 6px;
     height: 6px;
     border-radius: 50%;
@@ -144,7 +167,7 @@ body{
     gap: 40px;
 }
 .what-section img{
-    width: 450px;
+    width: 320px;
     mix-blend-mode: multiply;
 }
 .what-content h3{
@@ -165,19 +188,19 @@ body{
     display: none;
 }
 .ri-arrow-up-double-fill {
-    font-size: 30px;
+    font-size: 28px;
     border-radius: 4px; 
     position: fixed;
     z-index: 999;
-    top: 90vh;
+    top: 89vh;
     left: 20px;
-    background-color: #f4a54a; 
-    padding: 10px; 
+    background-color: #fab702; 
+    padding: 5px; 
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50px; 
-    height: 50px; 
+    width: 40px; 
+    height: 40px; 
     cursor: pointer; 
     color: rgb(23, 23, 23);
     transition: ease-in 0.3s;
@@ -224,7 +247,7 @@ body{
     margin: 40px 20px;
 }
 .ri-double-quotes-l{
-    background-color: #f4a54a;
+    background-color: #fab702;
     padding: 15px;
 }
 .review-content{
@@ -233,7 +256,7 @@ body{
     text-align: justify;
 }
 .review-content span{
-    color: #f4a54a;
+    color: #fab702;
     font-size: 15px
 }
 .sidebtn{
@@ -250,7 +273,7 @@ body{
     }
 }
 .com-btn{
-    background-color: #f59930;
+    background-color: #fab702;
     border: none;
     padding: 6px 25px;
     border-radius: 2px;
@@ -262,8 +285,7 @@ body{
     align-items: center;
     width: 100%;
     height: 200px;
-    background-color: #f59930;
-    margin-top: 20px;
+    background-color: #fab702;
 }
 .viewall i{
     margin-left: 10px;
@@ -277,6 +299,27 @@ body{
 .viewall button:hover{
     background-color: black;
         color: white;
+}
+.market-problems-solution {
+    width: 100%;
+    height: 100vh;
+    padding: 80px 40px;
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/813c2a212020209.672d8154e1aa2.jpg');
+    background-size: cover;
+    color: white; /* Make text color white for contrast */
+}
+
+.market-problems-solution h2 {
+    font-size: 35px;
+    font-weight: 400;
+    color: #f3f3f3;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Add shadow for better visibility */
+}
+.market-problems-solution ul li {
+    font-size: 17.5px;
+    margin: 20px 0;
+    color: #d4d2ce;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Subtle text shadow */
 }
 .clients-sec{
     padding: 50px 30px;
@@ -344,18 +387,18 @@ body{
 .bottom-main{
     width: 100%;
     height: 15vw;
-    background-color: #f59930;
+    background-color: #fab702;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .loader {
-    color: rgb(226, 43, 43);
-    font-weight: 600;
-    font-size: 45px;
+    color: rgb(7, 7, 7);
+    font-weight: 200;
+    font-size: 40px;
     box-sizing: content-box;
-    height: 60px;
+    height: 56px;
     padding: 10px 10px;
     display: flex;
     justify-content: center;
@@ -372,7 +415,7 @@ body{
     display: block;
     height: 100%;
     padding-left: 6px;
-    color: rgb(21, 21, 21);
+    color: rgb(13, 13, 13);
     animation: animate 4s infinite;
     word-spacing: 2px;
 }
@@ -425,7 +468,7 @@ body{
     width: 100%;
     height: auto;
     display: block;
-    transition: transform 0.3s ease;
+    transition: transform 0.8s ease;
   }
   
   .project-item .overlay {
@@ -443,9 +486,10 @@ body{
   }
   
   .project-item .overlay h3 {
-    color: #e8983d;
+    color: #fab702;
     font-size: 1.2rem;
-    font-weight: bold;
+    font-weight: 300;
+    font-style: italic;
     text-transform: uppercase;
     position: absolute;
     transform: translateY(100%);
@@ -454,7 +498,7 @@ body{
   
   .project-item:hover img {
     transform: scale(1.2);
-    filter: brightness(0.5);
+    filter: brightness(0.3);
   }
   
   .project-item:hover .overlay {
@@ -469,4 +513,35 @@ footer{
     background-color: #121212;
     width: 100%;
     height: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+}
+.box-1{
+    width: 30%;
+    text-align: justify;
+}
+.box-1 img{
+    width: 260px;
+    margin-bottom: 30px;
+}
+.box-2{
+    width: 15%;
+}
+.box-2 ul li{
+    list-style: none;
+    line-height: 30px;
+}
+.box-2 ul a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.box-3{
+    width: 30%;
+}
+.box-3 ul li{
+  list-style: none;
+  text-align: left
 }

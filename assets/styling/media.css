@@ -1,4 +1,7 @@
 @media (min-width:850px) and (max-width:990px) {
+    .menu-btn{
+        display: block;
+    }
     #top-nav{
         display: none !important;
     }
@@ -30,6 +33,9 @@
     }
 }
 @media (min-width:651px) and (max-width:850px) {
+    .menu-btn{
+        display: block;
+    }
     #top-nav{
         display: none !important;
     }
@@ -113,6 +119,9 @@
     }
 }
 @media (max-width:650px) {
+    .menu-btn{
+        display: block;
+    }
     .nav-logo{
         width: 180px;
     }
@@ -211,13 +220,14 @@
         padding: 60px 30px;
         position: absolute;
         top: 15%;
+        left: 4%;
     }
     .contact-cm{
         display: none;
     }
     .contact-main-img{
         width: 100%;
-        height: 60vh;
+        height: 80vh;
     }
     .contact-mb{
         display: block !important;
