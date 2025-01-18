@@ -8,21 +8,27 @@ var swiper = new Swiper(".mySwiper", {
     },
   });
 // MODELS
-$.getJSON("assets/js/data.json", function (products) {
-  console.log(products);  
-  var cardsContainer = $("#projects");
-  products.forEach(product => {
-    const card = `
-      <div class="project-item">
-        <img src="${product.image}" alt="${product.name}">
-        <div class="overlay">
-          <h3>${product.name}</h3>
+fetch('assets/js/data.json')
+  .then(response => response.json())
+  .then(products => {
+    console.log(products);
+    var cardsContainer = document.getElementById('projects');
+    products.forEach(product => {
+      const card = `
+        <div class="project-item">
+          <img src="${product.image}" alt="${product.name}">
+          <div class="overlay">
+            <h3>${product.name}</h3>
+          </div>
         </div>
-      </div>
-    `;
-    cardsContainer.append(card);
+      `;
+      cardsContainer.innerHTML += card;
+    });
+  })
+  .catch(error => {
+    console.error('Error fetching the JSON data:', error);
   });
-});
+
 
 
 
