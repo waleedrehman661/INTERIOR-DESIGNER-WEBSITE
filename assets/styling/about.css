@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-repeat: no-repeat;
+    background: url(https://static.wixstatic.com/media/743d06_32b61005d0744c70a2bb8d00d66230fb~mv2_d_1818_1200_s_2.jpg/v1/fill/w_980,h_1090,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/743d06_32b61005d0744c70a2bb8d00d66230fb~mv2_d_1818_1200_s_2.jpg);
+}
+.about-container{
+    position: relative;
+}
+.about-container div{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 50px 60px;
+}
+.about-container div h1{
+    font-size: 40px;
+    color: #090909;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.about-box{
+    width: 45vw;
+    height: 75vh;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    margin-top: 1vh;
+    margin-left: 50%;
+}
+.line{
+    width: 50px;
+    height: 1px;
+    background-color: #090909;
+    margin-bottom: 25px;
+}
+.about-box-content{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    text-align: justify;
+}
+.about-team-sec{
+    padding: 60px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.about-team-sec-content{
+    padding: 5vw 14vw;
+}
+.name-box-1{
+    width: 400px;
+    height: 250px;
+    border: #090909 solid 4px;
+    padding: 80px 60px;
+    position: absolute;
+    left: 35%;
+    top: 30vh;
+}
+.name-box-2{
+    width: 400px;
+    height: 250px;
+    border: #090909 solid 4px;
+    padding: 80px 60px;
+    position: absolute;
+    left: 35%;
+    top: 30vh;
+}
+.aboutbottom-bg{
+    background-color: #111111;
+    padding: 5vw 10vw;
+    height: 300px;
+    width: 100%;
+    color: white;
+    border-bottom: 0.4px solid #fefefe;
+}
+.aboutbottom-bg button{
+    padding: 18px 80px;
+    border-radius: 50px;
+    background-color: #da2222;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 50px;
+}
+.aboutbottom-bg h1{
+    font-size: 4.6vw;
+}
+.aboutbottom-bg button{
+    font-size: 20px;
+}

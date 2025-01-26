@@ -134,6 +134,7 @@ body{
     padding: 20px;
     position: absolute;
     top: 18vh;
+    left: 8vw;
     color: white;
 }
 .header-content p{
@@ -514,8 +515,8 @@ body{
     transform: translateY(0);
   }
     
-footer{
-    background-color: #121212;
+.footer{
+    background-color: rgb(16, 16, 16);
     width: 100%;
     height: 400px;
     color: white;
@@ -563,4 +564,22 @@ footer{
     font-size: 30px;
     font-weight: 500;
     white-space: nowrap;
+}
+.bottom-footer{
+    background-color: rgb(16, 16, 16);
+    font-size: 15px;
+    margin: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 0.07px;
+    padding: 10px 0px;
+}
+#g-font{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
 }
