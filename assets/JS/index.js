@@ -13,7 +13,10 @@ fetch('assets/js/data.json')
   .then(products => {
     console.log(products);
     var cardsContainer = document.getElementById('projects');
-    products.forEach(product => {
+
+    let firstFive = products.slice(0, 6);
+
+    firstFive.forEach(product => {
       const card = `
         <div class="project-item">
           <img src="${product.image}" alt="${product.name}">
@@ -28,6 +31,7 @@ fetch('assets/js/data.json')
   .catch(error => {
     console.error('Error fetching the JSON data:', error);
   });
+
 
 
 

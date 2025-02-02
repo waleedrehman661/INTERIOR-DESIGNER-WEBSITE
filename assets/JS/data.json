@@ -1,39 +1,68 @@
 [
     {
-        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/d18cf5212218453.6731ae5f13c13.png",
-        "name": "Luxury Room"
+      "image": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/d18cf5212218453.6731ae5f13c13.png",
+      "name": "Luxury Room 1",
+      "category": "all"
     },
     {
-        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/55b385215171033.67656fb5707b2.jpeg",
-        "name": "Luxury Room"
+      "image": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/55b385215171033.67656fb5707b2.jpeg",
+      "name": "Luxury Room 2",
+      "category": "commercial"
     },
     {
-        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/a029ba214743905.675d78a985496.png",
-        "name": "Luxury Room"
+      "image": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/a029ba214743905.675d78a985496.png",
+      "name": "Luxury Room 3",
+      "category": "residential"
     },
     {
-        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/d18cf5212218453.6731ae5f13c13.png",
-        "name": "Luxury Room"
+      "image": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/d18cf5212218453.6731ae5f13c13.png",
+      "name": "Luxury Room 4",
+      "category": "all"
     },
     {
-        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/55b385215171033.67656fb5707b2.jpeg",
-        "name": "Luxury Room"
+      "image": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/55b385215171033.67656fb5707b2.jpeg",
+      "name": "Luxury Room 5",
+      "category": "commercial"
     },
     {
-        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/a029ba214743905.675d78a985496.png",
-        "name": "Luxury Room"
+      "image": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/a029ba214743905.675d78a985496.png",
+      "name": "Luxury Room 6",
+      "category": "residential"
     },
     {
-        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/d18cf5212218453.6731ae5f13c13.png",
-        "name": "Luxury Room"
+      "image": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/d18cf5212218453.6731ae5f13c13.png",
+      "name": "Luxury Room 7",
+      "category": "all"
     },
     {
-        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/a029ba214743905.675d78a985496.png",
-        "name": "Luxury Room"
+      "image": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/a029ba214743905.675d78a985496.png",
+      "name": "Luxury Room 8",
+      "category": "commercial"
     },
     {
-        "image": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/a029ba214743905.675d78a985496.png",
-        "name": "Luxury Room"
+      "image": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/a029ba214743905.675d78a985496.png",
+      "name": "Luxury Room 9",
+      "category": "residential"
+    },
+    {
+      "image": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/a029ba214743905.675d78a985496.png",
+      "name": "Luxury Room 10",
+      "category": "all"
+    },
+    {
+      "image": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/a029ba214743905.675d78a985496.png",
+      "name": "Luxury Room 11",
+      "category": "commercial"
+    },
+    {
+      "image": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/d18cf5212218453.6731ae5f13c13.png",
+      "name": "Luxury Room 12",
+      "category": "residential"
+    },
+    {
+      "image": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/d18cf5212218453.6731ae5f13c13.png",
+      "name": "Luxury Room 12",
+      "category": "residential"
     }
   ]
   

@@ -79,3 +79,8 @@ body{
     font-weight: bold;
     border-radius: 8px;
 }
+button.active {
+    background-color: #f2b203;
+    color: black;
+  }
+  
