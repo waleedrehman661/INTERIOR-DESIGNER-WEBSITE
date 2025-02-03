@@ -22,75 +22,82 @@
 <body>
     <header></header>
     <section>
-      <div class="con-banner">
-        <div>
-            <h1>CONTACT US</h1>
-        <p>Do you have some questions?</p>
+        <div class="con-banner">
+            <div>
+                <h1>CONTACT US</h1>
+                <p>Do you have some questions?</p>
+            </div>
         </div>
-      </div>
-      <div class="contact-content-middle">
-        <div class="form-p1">
-            <h2>Get in touch with us</h2>
-            <p>
-                If you have any requirements for 3D design & 3D rendering service, look forward to get your 3D house design or 3d home designing done, or any other CGI animation, our team of architectural visualizers, 3D max experts & animators are there to guide you 24/7.
-            </p>
-            <p>
-                Also please share feedback about our work and design services. Pixarch team would love to hear from you. We are here to consult you, send us an email with sections, elevations, and plans along with the number of images you require and the time-frame for delivery.
-            </p>
-        </div>
-       <div class="form-p2">
-        <h2>Fill up the form if you have any question</h2>
-        <form id="contact_form" action="#" method="post">
-            <div class="d-flex gap-3">
-                <div class="form-group">
-                    <label for="firstName">First Name <span class="required">*</span></label>
-                    <input id="contact-firstname" type="text" name="firstName" required>
-                    <span id="1stname-p"></span>
+        <div class="contact-content-middle">
+            <div class="form-p1">
+                <h2>Get in touch with us</h2>
+                <p>
+                    If you have any requirements for 3D design & 3D rendering service, look forward to getting your 3D house design or 3D home designing done, or any other CGI animation, our team of architectural visualizers, 3D max experts & animators are there to guide you 24/7.
+                </p>
+                <p>
+                    Also, please share feedback about our work and design services. Pixarch team would love to hear from you. We are here to consult you, send us an email with sections, elevations, and plans along with the number of images you require and the time frame for delivery.
+                </p>
+            </div>
+            <div class="form-p2">
+                <div>
+                    <h2>Fill up the form if you have any questions</h2>
+                </div>
+            <form id="contact_form" action="#" method="post">
+                <div class="d-flex gap-4">
+                    <div class="form-group">
+                        <label for="contact-firstname">First Name <span class="required">*</span></label>
+                        <input type="text" id="contact-firstname" name="firstname" required>
+                        <span id="firstname-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-lastname">Last Name <span class="required">*</span></label>
+                        <input type="text" id="contact-lastname" name="lastname" required>
+                        <span id="lastname-error"></span>
+                    </div>
+                </div>
+                <div class="d-flex gap-4 email-phone">
+                    <div class="form-group">
+                        <label for="email">Email <span class="required">*</span></label>
+                        <input type="email" name="email" id="email" required>
+                        <span id="email-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone/Mobile <span class="required">*</span></label>
+                        <input type="tel" name="phone" id="phonenumber" required>
+                        <span id="phone-error"></span>
+                    </div>
                 </div>
                 <div class="form-group">
-                    <label for="lastName">Last Name <span class="required">*</span></label>
-                    <input id="contact-lastname" type="text" name="lastName" required>
-                    <span id="2ndname-p"></span>
+                    <label for="source">Where did you find us? <span class="required">*</span></label>
+                    <select class="py-2" name="source" id="source" required>
+                        <option value="">- Select -</option>
+                        <option value="Google">Google</option>
+                        <option value="Social Media">Social Media</option>
+                        <option value="Linkden">Linkden</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <span id="source-error"></span>
                 </div>
+                <div class="form-group">
+                    <label for="message">Your Message <span class="required">*</span></label>
+                    <textarea name="message" id="message" required></textarea>
+                    <span id="message-error"></span>
+                </div>
+                <button class="contact-btn" type="submit">Submit</button>
+            </form>
             </div>
-           <div class="d-flex gap-3">
-            <div class="form-group">
-                <label for="email">Email <span class="required">*</span></label>
-                <input type="email" id="email" name="email" required>
-                <span id="gmailp"></span>
-            </div>
-            <div class="form-group">
-                <label for="phone">Phone/Mobile <span class="required">*</span></label>
-                <input type="tel" id="phonenumber" name="phone" required>
-                <span id="phonep"></span>
-            </div>
-           </div>
-            <div class="form-group">
-                <label for="source">Where did you find us? <span class="required">*</span></label>
-                <select id="source" name="source" required>
-                    <option value="">- Select -</option>
-                    <option value="Google">Google</option>
-                    <option value="Social Media">Social Media</option>
-                    <option value="Referral">Referral</option>
-                    <option value="Other">Other</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="message">Your Message <span class="required">*</span></label>
-                <textarea id="message" name="message" required></textarea>
-            </div>
-            <button class="contact-btn" type="submit">Submit</button>
-        </form>   
-       </div>
-      </div>
+        </div>
     </section>
     <footer></footer>
+    <div id="watsapp-logo"></div>
+    <a id="arrow" href="">
+    <i class="ri-arrow-up-double-fill text-center"></i>
+    </a>
 </body>
 </html>
-<script src="assets/JS/logo.js"></script>
-<script src="assets/JS/index.js"></script>
-<script src="assets/JS/nav-foot.js"></script>
-<script src="assets/JS/patterns.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="assets/JS/logo.js"></script>
+<script src="assets/JS/nav-foot.js"></script>
+<script src="assets/JS/patterns.js"></script>

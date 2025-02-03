@@ -78,9 +78,17 @@ body{
     color: white;
     font-weight: bold;
     border-radius: 8px;
+    transition: ease-in 0.1s;
+    box-shadow: #030303 0px 0px 0px 0px;
 }
-button.active {
-    background-color: #f2b203;
+.contact-btn:active{
+    background-color: #daa208;
     color: black;
-  }
+}
+.contact-btn:hover {
+    background-color: #f59415;
+}
   
+.d-flex .form-group {
+    width: 48%;
+}
