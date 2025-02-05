@@ -110,7 +110,7 @@
         height: 400px;
     }
     .loader{
-        font-size: 40px;
+        font-size: 35px;
     }
     .bottom-main{
         display: flex;
@@ -235,14 +235,19 @@
         height: 100%;
     }
     .loader {
-        color: rgb(226, 43, 43);
-        font-weight: 600;
-        font-size: 30px;
+        color: rgb(0, 0, 0);
+        font-size: 7vw;
     }
     .bottom-main{
         height: 80px;
         display: flex;
         align-items: center;
         margin-top: 20px;
+    }
+}
+@media (max-width:800px) {
+    .footer{
+        flex-direction: column;
+        height: 100%;
     }
 }

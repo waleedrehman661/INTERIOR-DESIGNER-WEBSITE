@@ -8,7 +8,7 @@ body{
 }
 .con-banner{
     width: 100%;
-    height: 50vh;
+    height: 300px;
     background: linear-gradient(#f2b203, #f29103) ;
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@ body{
    text-align: center;
 }
 .con-banner h1{
-   font-size: 3vw;
+   font-size: 30px;
    margin-top: 8vw;
    font-family: sans-serif;
    font-weight: 600;
@@ -49,12 +49,15 @@ body{
 .required {
     color: red;
 }
-.contact-content-middle{
+.contact-content-middle {
     display: flex;
+    justify-content: center;
     gap: 8vw;
     width: 100%;
     padding: 6vw;
+    flex-wrap: wrap; /* Ensure that content wraps on smaller screens */
 }
+
 .form-p1{
     width: 40%;
 }
@@ -88,7 +91,37 @@ body{
 .contact-btn:hover {
     background-color: #f59415;
 }
-  
+.contact-content-middle {
+    display: flex;
+    justify-content: center;
+    gap: 8vw;
+    width: 100%;
+    padding: 6vw;
+    flex-wrap: wrap; /* Ensure that content wraps on smaller screens */
+}
+
+.form-p1, .form-p2 {
+    width: 100%; /* Default width to 100% on smaller screens */
+}
+
+.form-p1 {
+    width: 40%;
+}
+
+.form-p2 {
+    width: 50%;
+}
 .d-flex .form-group {
     width: 48%;
+} 
+
+@media (max-width: 768px) {
+    .form-p1, .form-p2 {
+        width: 90%; /* Set width to 90% for smaller screens */
+        margin: 0 auto; /* Center the elements */
+    }
+    .contact-content-middle {
+        flex-direction: column; /* Stack the elements vertically on smaller screens */
+        padding: 5vw; /* Adjust padding */
+    }
 }

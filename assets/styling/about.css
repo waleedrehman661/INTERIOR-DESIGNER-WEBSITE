@@ -77,21 +77,41 @@ body{
     height: 300px;
     width: 100%;
     color: white;
-    border-bottom: 0.4px solid #fefefe;
+    border-bottom: 0.02px solid #fefefe;
 }
-.aboutbottom-bg button{
-    padding: 18px 80px;
+.aboutbottom-bg button {
+    padding: 16px 60px;
     border-radius: 50px;
     background-color: #da2222;
     color: white;
     border: none;
     cursor: pointer;
-    font-size: 15px;
-    margin-top: 50px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    margin-top: 60px;
+  }
+  
+  .aboutbottom-bg button .icon {
+    margin-left: 10px;
+    font-size: 18px;
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  .aboutbottom-bg button:hover {
+    background-color: #d50a0a; 
+  }
+  
+  .aboutbottom-bg button:hover .icon {
+    transform: translateX(10px); 
+  }
+  
+#Review{
+    background-color: #ffffff80;
+    backdrop-filter: blur(2px);
 }
-.aboutbottom-bg h1{
-    font-size: 4.6vw;
-}
-.aboutbottom-bg button{
-    font-size: 20px;
-}
+.anchor-btn {
+    text-decoration: none; 
+  }

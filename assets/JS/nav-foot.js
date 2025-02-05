@@ -2,29 +2,42 @@ document.querySelector('header').innerHTML += `
   <nav id="top">
           <div id="top-nav" class="top-nav col-lg-10">
               <ul class="top-ul-1">
-                  <li>
-                     <span class="text-color"><i class="ri-phone-fill"></i></span class="text-color">
-                      <strong>PHONE : <span class="text-color">+92-3152210948</span class="text-color"></strong>
-                       -
-                      <strong><span class="text-color">+92-3152210948</span class="text-color"></strong>
-                  </li>
-                  <li>
-                      <span class="text-color"><i class="ri-mail-line"></i></span>
-                      <strong>Email us: <span class="text-color">waleedrehman2007@gmail.com</span class="text-color"></strong>
-                  </li>
+                 <li>
+  <span class="text-color"><i class="ri-phone-fill"></i></span>
+  <strong>PHONE : 
+    <a href="tel:+923152210948">
+      <span class="text-color">+92-3152210948</span>
+    </a>
+  </strong>
+  -
+  <strong>
+    <a href="tel:+923152210948">
+      <span class="text-color">+92-3152210948</span>
+    </a>
+  </strong>
+</li>
+
+     <li>
+  <a href="mailto:waleedrehman2007@gmail.com">
+    <span class="text-color"><i class="ri-mail-line"></i></span>
+    <strong>Email us: <span class="text-color">waleedrehman2007@gmail.com</span></strong>
+  </a>
+</li>
               </ul>
               <ul class="top-ul-2">
-                  <li><i class="ri-facebook-fill"></i></li>
-                  <li><i class="ri-youtube-line"></i></li>
-                  <li><i class="ri-instagram-line"></i></li>
-              </ul>
+  <li><a href="https://www.facebook.com/your-profile" target="_blank"><i class="ri-facebook-fill"></i></a></li>
+  <li><a href="https://www.youtube.com/@WaleedMughal-b3e" target="_blank"><i class="ri-youtube-line"></i></a></li>
+  <li><a href="https://www.instagram.com/waleedrehman941" target="_blank"><i class="ri-instagram-line"></i></a></li>
+</ul>
           </div>
           <div class="second-nav sticky-top">
           <a href="index.html">
           <img class="nav-logo" src="assets/images/3D VISION STUDIOS-logo.png" alt="">
           </a>
               <ul class="second-list">
-                  <li class="navlink">HOME</li>
+                  <a href='index.html'>
+                    <li class="navlink">HOME</li>
+                  </a>
                   <span class="dot"></span>
                   <a href="#projects">
                     <li class="navlink">PROJECTS</li>
@@ -48,12 +61,17 @@ document.querySelector('header').innerHTML += `
           <span data-bs-dismiss="offcanvas" aria-label="Close"><i class="ri-close-large-line"></i></span>
         </div>
         <div class="offcanvas-body">
-          
+        <div>
+<a href="index.html"><h3>Home</h3></a>
+<a href="about.html"><h3>About</h3></a>
+<a href="projects.html"><h3>Projects</h3></a>
+<a href="services.html"><h3>Services</h3></a>
+<a href="contact.html"><h3>Contact Us</h3></a>
         </div>
       </div>
 `
 document.querySelector('footer').innerHTML += `
-<div class="footer">
+<div class="footer mb-flex-column">
         <div class="box-1">
           <img src="assets/images/3D VISION STUDIOS-logo.png" alt="">
           <p>For more than 20 years, interior design has been one of the supporting services provided by De Interiors. De interiors provide office furnishing solutions. The Company offers space planning, designing, furniture products, etc.</p>
